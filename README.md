@@ -3,15 +3,11 @@ Web Database Applications: Assignment 1
 Student Details
 
 Student ID: s3449220
-
 Student Name: Li Lang Chung
-
 Tute/Lab: Wednesday 7:30-9:30pm
-
 Tutor: Kevin Ong
 
 Completed Parts
-
 Part A: 
 - MySQL DBMS installed
 - Git Repository was set up
