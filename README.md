@@ -1,15 +1,12 @@
-——————————————————————————————————————————————————————————————————————————————
 Web Database Applications: Assignment 1
-——————————————————————————————————————————————————————————————————————————————
+
 Student Details
-——————————————————————————————————————————————————————————————————————————————
 Student ID: s3449220
 Student Name: Li Lang Chung
 Tute/Lab: Wednesday 7:30-9:30pm
 Tutor: Kevin Ong
-——————————————————————————————————————————————————————————————————————————————
+
 Completed Parts
-——————————————————————————————————————————————————————————————————————————————
 Part A: 
 - MySQL DBMS installed
 - Git Repository was set up
@@ -41,8 +38,7 @@ button, it will show the wine name that they entered in the search form
 token secret generated. I downloaded Twitter OAuth and included the OAuth.php
 and twitteroauth.php pages in process.php, however I couldn’t figure out how
 to get it working
-——————————————————————————————————————————————————————————————————————————————
+
 Public IP Address
-——————————————————————————————————————————————————————————————————————————————
 54.79.112.221
 
