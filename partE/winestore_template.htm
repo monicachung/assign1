@@ -1,0 +1,39 @@
+<html>
+
+<head>
+<title>Winestore Database - Search Results</title>
+</head>
+
+<body>
+<h3>Search Results</h3>
+
+<table border="1" cellpadding="3" cellspacing="0">
+    <tr>
+        <td>Wine</td>
+        <td>Variety</td>
+        <td>Year</td>
+        <td>Winery</td>
+        <td>Region</td>
+        <td>Cost</td>
+        <td>Available</td>
+        <td>Stock Sold</td>
+        <td>Sales Revenues</td>
+    </tr>
+
+    <!-- $BeginBlock wine -->
+    <tr>
+        <td>${wineName}</td>
+        <td>${variety}</td>
+        <td>${year}</td>
+        <td>${wineryName}</td>
+        <td>${region}</td>
+        <td>${cost}</td>
+        <td>${stock}</td>
+        <td>${sold}</td>
+        <td>${sales}</td>
+    </tr>
+    <!-- $EndBlock wine -->
+</table>
+
+</body>
+</html>
