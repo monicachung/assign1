@@ -3,7 +3,7 @@
 session_start();
 
 // Get variables from form
-$_SESSION['wineName'] = $_GET['wineName'];
+$_SESSION['wines'] = $_GET['wines'];
 
 ?>
 
@@ -15,9 +15,9 @@ $_SESSION['wineName'] = $_GET['wineName'];
 <tr>
 <?php
 foreach($_SESSION as $key => $value) {
-    echo "<td>";
+    echo "<tr><td>";
     echo $value;
-    echo "</td>";
+    echo "</td></tr>";
     
 }
 ?>
