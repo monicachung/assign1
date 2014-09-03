@@ -1,12 +1,17 @@
 Web Database Applications: Assignment 1
 
 Student Details
+
 Student ID: s3449220
+
 Student Name: Li Lang Chung
+
 Tute/Lab: Wednesday 7:30-9:30pm
+
 Tutor: Kevin Ong
 
 Completed Parts
+
 Part A: 
 - MySQL DBMS installed
 - Git Repository was set up
@@ -33,7 +38,8 @@ session starts
 session ends and clears all search results in the URL. However, after the page 
 refreshes, it displays all results instead
 - View List of Wines button added on process.php page. When user clicks on the
-button, it will show the wine name that they entered in the search form
+button, it will show the wine name that appeared on the search result. Only shows
+1 wine name though
 - Twitter application created, and API key, API secret, access token and access
 token secret generated. I downloaded Twitter OAuth and included the OAuth.php
 and twitteroauth.php pages in process.php, however I couldn’t figure out how
@@ -41,5 +47,4 @@ to get it working
 
 Public IP Address
 54.79.112.221
-..
 
