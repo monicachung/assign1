@@ -121,6 +121,10 @@ while($row = $results->fetch(PDO::FETCH_ASSOC)) {
     $t->setVariable('sales', $row['cost']*$row['qty']);
 
     $t->addBlock("wine");
+    
+    //echo $row['wine_name'];
+    //echo $_SESSION['wines];
+    $_SESSION['wines'] = $row['wine_name'];
 }
 $t->generateOutput();
 
@@ -145,7 +149,7 @@ $pdo = null;
 
 <form action="session.php" method="get">
     <input type="submit" name="submit" value="View List of Wines" />
-    <input type="hidden" name="wineName" value="<?php echo $_SESSION['wineName']; ?>">
+    <input type="hidden" name="wineName" value="<?php echo $_SESSION['wines']; ?>">
 </form>
 
 <?php
